@@ -6,10 +6,10 @@ public class Conditions {
         // test  condition
         // si age >=18 alors
         // afficher "vous etes majeur donc vous pouvez participer"
-        // fin sin
+        // fin si
         // sinon
         // afficher "vous etes mineur, vous ne pouvez pas participer"
-        // fin sin
+        // fin si
 
         if(age>=18){
             System.out.println("vous etes majeur donc vous pouvez participer");
