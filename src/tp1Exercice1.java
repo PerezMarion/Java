@@ -1,10 +1,8 @@
 public class tp1Exercice1 {
     public static void main(String[] args) {
-        byte age=13;
+        byte age=10;
 
-        if(age<7) {
-            System.out.println("trop petit");
-        }if(age>=7 && age<=9) {
+        if(age>=7 && age<=9) {
             System.out.println("poussin");
         }if(age>=10 && age<=11) {
             System.out.println("pupille");
@@ -13,7 +11,7 @@ public class tp1Exercice1 {
         }if(age>=14 && age<=15) {
             System.out.println("cadet");
         }else{
-            System.out.println("trop grand");
+            System.out.println("tu es trop petit ou trop grand");
         }
     }
 }
