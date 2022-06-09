@@ -16,9 +16,6 @@ public class Lecture {
         System.out.print("Votre age : ");
         byte age=input.nextByte();
 
-        System.out.print("Votre poids : ");
-        float poids=input.nextFloat();
-
-        System.out.printf("Nom : %s\nPrenom : %s\nGenre : %c\nAge : %d ans\nPoids : %.2f kg\n",prenom,nom,genre,age,poids);
+        System.out.printf("Nom : %s\nPrenom : %s\nGenre : %c\nAge : %d ans\n",prenom,nom,genre,age);
     }
 }
