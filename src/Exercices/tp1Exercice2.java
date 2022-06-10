@@ -1,3 +1,5 @@
+package Exercices;
+
 public class tp1Exercice2 {
     public static void main(String[] args) {
         float diametre=8.5f;

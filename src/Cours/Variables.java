@@ -1,3 +1,5 @@
+package Cours;
+
 public class Variables {
     public static void main(String[] args) {
         //calcul rectangle

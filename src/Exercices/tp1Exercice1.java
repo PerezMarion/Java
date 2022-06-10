@@ -1,3 +1,5 @@
+package Exercices;
+
 public class tp1Exercice1 {
     public static void main(String[] args) {
         byte age=10;

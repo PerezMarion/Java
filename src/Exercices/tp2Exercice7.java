@@ -1,3 +1,5 @@
+package Exercices;
+
 public class tp2Exercice7 {
     public static void main(String[] args) {
 

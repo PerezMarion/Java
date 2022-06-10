@@ -1,3 +1,5 @@
+package Cours;
+
 public class Conditions {
     public static void main(String[] args) {
         // declaration de la variable age

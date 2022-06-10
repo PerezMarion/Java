@@ -1,3 +1,5 @@
+package Exercices;
+
 public class tp1Exercice4 {
     public static void main(String[] args) {
         int a=27;
