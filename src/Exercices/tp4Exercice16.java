@@ -1,5 +1,6 @@
 package Exercices;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class tp4Exercice16 {
@@ -69,35 +70,9 @@ public class tp4Exercice16 {
         }
         System.out.println("Vous avez bien renseigne tous les nombres du tableau 3.\n");
 
-        System.out.print("T1 : [");
-        for(int i=0;i<=tableau1.length-1;i=i+1) {
-            if(i!=tableau1.length-1) {
-                System.out.print(tableau1[i] + ",");
-            }else{
-                System.out.print(tableau1[i]);
-            }
-        }
-        System.out.print("]\n");
-
-        System.out.print("T2 : [");
-        for(int i=0;i<=tableau2.length-1;i=i+1) {
-            if(i!=tableau2.length-1) {
-                System.out.print(tableau2[i] + ",");
-            }else{
-                System.out.print(tableau2[i]);
-            }
-        }
-        System.out.print("]\n");
-
-        System.out.print("T3 : [");
-        for(int i=0;i<=tableau3.length-1;i=i+1) {
-            if(i!=tableau3.length-1) {
-                System.out.print(tableau3[i] + ",");
-            }else{
-                System.out.print(tableau3[i]);
-            }
-        }
-        System.out.print("]\n\n");
+        System.out.println("T1 : "+ Arrays.toString(tableau1));
+        System.out.println("T2 : "+ Arrays.toString(tableau2));
+        System.out.println("T3 : "+ Arrays.toString(tableau3)+"\n");
 
         System.out.print("S = "+multiplesDe3+" = "+sommeMultiplesDe3);
     }
