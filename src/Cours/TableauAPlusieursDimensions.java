@@ -1,8 +1,9 @@
 package Cours;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class tableauAPlusieursDimensions {
+public class TableauAPlusieursDimensions {
     public static void main(String[] args) {
 
         int[][] nombres={
@@ -44,5 +45,27 @@ public class tableauAPlusieursDimensions {
                 }
             }
 
+        Scanner input=new Scanner(System.in);
+        System.out.print("\nDonner le nombre de lignes : ");
+        int taille=input.nextInt();
+
+        // Creation d'un tableau de x nombre de lignes et de nombre de colonnes inconnu
+        int[][] matrice=new int[taille][];
+        for(int i=0;i<matrice.length;i=i+1){
+            System.out.printf("Donner le nombre de colonnes pour la matrice [%d]: ",i);
+            int nombreDeColonnes= input.nextInt();
+            matrice[i]=new int[nombreDeColonnes];
+            for(int j=0;j<matrice[i].length;j=j+1){
+                System.out.printf("matrice[%d][%d] : ",i,j);
+                matrice[i][j]= input.nextInt();
+            }
+        }
+        System.out.println("Affichage de tout le tableau : ");
+        for (int i=0;i<matrice.length;i=i+1){
+            for (int j=0;j<matrice[i].length;j=j+1) {
+                System.out.print(matrice[i][j]+ " ");
+            }
+            System.out.println("");
+        }
     }
 }

@@ -1,6 +1,6 @@
 package Cours;
 
-public class complementsString {
+public class ComplementsString {
     public static void main(String[] args) {
 
         String nom="Marion";

@@ -3,7 +3,7 @@ package Cours;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class stockageVariablesEvoluees {
+public class StockageVariablesEvoluees {
     public static void main(String[] args) {
 
         // Dans Java, les variables evoluees commence par une majuscule contrairement aux variables simples
