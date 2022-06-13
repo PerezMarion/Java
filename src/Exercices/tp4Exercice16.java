@@ -27,11 +27,10 @@ public class tp4Exercice16 {
             int nombreAInsere=input.nextInt();
             tableau1[a]=nombreAInsere;
             if(nombreAInsere % 3 == 0) {
+                sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                 if(sommeMultiplesDe3==0) {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 = "" + nombreAInsere;
                 } else {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 = multiplesDe3+ " + " + nombreAInsere;
                 }
             }
@@ -44,11 +43,10 @@ public class tp4Exercice16 {
             int nombreAInsere=input.nextInt();
             tableau2[b]=nombreAInsere;
             if(nombreAInsere % 3 == 0) {
+                sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                 if(sommeMultiplesDe3==0) {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 = "" + nombreAInsere;
                 } else {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 =multiplesDe3+ " + " + nombreAInsere;
                 }
             }
@@ -61,11 +59,10 @@ public class tp4Exercice16 {
             int nombreAInsere=input.nextInt();
             tableau3[c]=nombreAInsere;
             if(nombreAInsere % 3 == 0) {
+                sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                 if(sommeMultiplesDe3==0) {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 = "" + nombreAInsere;
                 } else {
-                    sommeMultiplesDe3 = sommeMultiplesDe3 + nombreAInsere;
                     multiplesDe3 =multiplesDe3+ " + " + nombreAInsere;
                 }
             }
