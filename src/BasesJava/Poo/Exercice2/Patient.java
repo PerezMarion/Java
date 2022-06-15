@@ -41,20 +41,16 @@ public class Patient {
 
     public double indiceMasseCorporelle() {return (poids/Math.pow(taille,2));}
 
-    public void fichePatient(){
-        System.out.println("Fiche patient : ");
-        System.out.println("Nom : "+this.getNom());
-        System.out.println("Prenom : "+this.getPrenom());
-        System.out.println("Age : "+this.getAge());
-        System.out.println("Poids : "+this.getPoids());
-        System.out.println("Taille : "+this.getTaille());
-        System.out.printf("IMC : %.2f\n\n",this.indiceMasseCorporelle());}
+    public String toString() {
+        return String.format("Fiche patient : \nNom : %s\nPrenom : %s\nAge : %d\nPoids : %.2f\nTaille : %.2f\nIMC : %.2f\n\n",
+                             this.nom, this.prenom, this.age, this.poids, this.taille, this.indiceMasseCorporelle());
+    }
 
     public void interpretation(){
         if(this.getAge()<18 || this.getAge()>65){
             System.out.println("L'IMC n'est pas interpretable au vu de votre age.");
         }else{
-            this.fichePatient();
+            System.out.println(this);
         }
     }
 }

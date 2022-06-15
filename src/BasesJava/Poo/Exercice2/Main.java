@@ -13,10 +13,10 @@ public class Main {
         patient2.setPoids(84);
         patient2.setTaille(1.75f);
 
-        Patient patient3=new Patient("Pan","Peter",(byte)12,48,1.41f);
+        Patient patient3=new Patient("Pan","Peter",(byte)12,48f,1.41f);
 
-        patient1.interpretation();
-        patient2.interpretation();
-        patient3.interpretation();
+        System.out.println(patient1);
+        System.out.println(patient2);
+        System.out.println(patient3);
     }
 }
