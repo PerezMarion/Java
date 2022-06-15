@@ -1,4 +1,4 @@
-package BasesJava.Poo;
+package BasesJava.Poo.Cours;
 
 import org.w3c.dom.css.Rect;
 
