@@ -22,14 +22,11 @@ public class Main {
             // System.out.println("La surface : "+terrain.calculSurface());
             // System.out.println("Le perimetre : "+terrain.calculPerimetre());
 
+            // terrain.motFin();
+
     // Apres getters et setters
 
         Rectangle terrain=new Rectangle();
-        System.out.println("La longueur : "+terrain.getLongueur());
-        System.out.println("La largeur : "+terrain.getLargeur());
-
-        // Etat de l'objet après avoir fourni les valeurs
-
         terrain.setLongueur(500);
         terrain.setLargeur(350);
         System.out.println("\nLa longueur : "+terrain.getLongueur());
@@ -37,6 +34,18 @@ public class Main {
         System.out.println("La surface : "+terrain.calculSurface());
         System.out.println("Le perimetre : "+terrain.calculPerimetre());
 
-        terrain.motFin();
+    // Apres constructeurs
+
+        Rectangle terasse=new Rectangle();
+        System.out.println("\nLa longueur : "+terasse.getLongueur());
+        System.out.println("La largeur : "+terasse.getLargeur());
+        System.out.println("La surface : "+terasse.calculSurface());
+        System.out.println("Le perimetre : "+terasse.calculPerimetre());
+
+        Rectangle jardin=new Rectangle(50,30);
+        System.out.println("\nLa longueur : "+jardin.getLongueur());
+        System.out.println("La largeur : "+jardin.getLargeur());
+        System.out.println("La surface : "+jardin.calculSurface());
+        System.out.println("Le perimetre : "+jardin.calculPerimetre());
     }
 }
